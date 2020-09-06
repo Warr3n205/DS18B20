@@ -11,6 +11,7 @@ void setup(void) {
   sensors.begin();  
   Serial.begin(9600);
 }
+
 void loop(void) { 
   sensors.requestTemperatures(); 
 
